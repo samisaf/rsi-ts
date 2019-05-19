@@ -1,0 +1,1 @@
+This is a calculator to facilitate choosing correct dosing for medications using during rapid sequence intubation.
