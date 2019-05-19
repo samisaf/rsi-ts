@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "parcel serve ./src/index.html --port 8080 --out-dir dev",
+    "serve": "parcel serve ./src/index.html --global samisaf --port 8080 --out-dir dev",
     "build": "parcel build ./src/index.html"
   },
   "author": "",

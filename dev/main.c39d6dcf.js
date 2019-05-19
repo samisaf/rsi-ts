@@ -12077,7 +12077,7 @@ exports.__esModule = true;
 
 var vue_1 = __importDefault(require("vue"));
 
-var rsi = new vue_1["default"]({
+exports.rsi = new vue_1["default"]({
   el: "#meds",
   data: {
     meds: {
@@ -12134,7 +12134,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65089" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "35984" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -12309,5 +12309,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../node_modules/parcel/src/builtins/hmr-runtime.js","main.ts"], null)
+},{}]},{},["../node_modules/parcel/src/builtins/hmr-runtime.js","main.ts"], "samisaf")
 //# sourceMappingURL=/main.c39d6dcf.js.map

@@ -1,6 +1,6 @@
 import Vue from "vue";
 
-let rsi = new Vue({
+export let rsi = new Vue({
     el: "#meds",
     data: {
       meds: {
@@ -30,4 +30,3 @@ let rsi = new Vue({
       }
     }
   });
-  
