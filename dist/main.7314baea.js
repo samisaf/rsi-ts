@@ -4,6 +4,6 @@ var e=arguments[3],t=Object.freeze({});function n(e){return null==e}function r(e
 },{}],"ApMz":[function(require,module,exports) {
 module.exports=require("./vue.common.prod.js");
 },{"./vue.common.prod.js":"BydX"}],"ZCfc":[function(require,module,exports) {
-"use strict";var e=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};exports.__esModule=!0;var t=e(require("vue")),i=new t.default({el:"#meds",data:{meds:{Sedatives:{Etomidate:.3,Ketamine:[1,2],Propofol:[2,3],Midazolam:.3},Paralytics:{Succinylcholine:1.5,Rocuronium:[.6,1]},Analgesics:{Fentanyl:[.001,.002],Lidocaine:1.5}},weight:70},methods:{multiply:function(e,t){return"number"==typeof t?e*t:t.map(function(t){return t*e})}}});
+"use strict";var e=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};exports.__esModule=!0;var t=e(require("vue"));exports.rsi=new t.default({el:"#meds",data:{meds:{Sedatives:{Etomidate:.3,Ketamine:[1,2],Propofol:[2,3],Midazolam:.3},Paralytics:{Succinylcholine:1.5,Rocuronium:[.6,1]},Analgesics:{Fentanyl:[.001,.002],Lidocaine:1.5}},weight:70},methods:{multiply:function(e,t){return"number"==typeof t?e*t:t.map(function(t){return t*e})}}});
 },{"vue":"ApMz"}]},{},["ZCfc"], null)
-//# sourceMappingURL=/main.bf28add2.js.map
+//# sourceMappingURL=/main.7314baea.js.map
